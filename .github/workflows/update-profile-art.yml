@@ -1,0 +1,38 @@
+name: Update profile art
+
+on:
+  schedule:
+    - cron: "17 6 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  update-art:
+    runs-on: ubuntu-latest
+    env:
+      GH_PROFILE_USER: ${{ github.repository_owner }}
+      GITHUB_REPOSITORY_OWNER: ${{ github.repository_owner }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install dependencies
+        run: pip install -r scripts/requirements.txt
+      - name: Generate ASCII portrait from my image
+        run: python scripts/make_ascii_svg.py
+      - name: Fetch real public contribution data
+        run: python scripts/fetch_contributions.py
+      - name: Render animated contribution heatmap
+        run: python scripts/render_heatmap_svg.py
+      - name: Render live statistics card
+        run: python scripts/render_stats_svg.py
+      - name: Commit updated assets
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: refresh GitHub profile art"
+          file_pattern: "data/contributions.json contrib-heatmap.svg stats.svg profile-ascii.svg"

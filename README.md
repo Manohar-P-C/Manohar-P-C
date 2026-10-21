@@ -19,11 +19,10 @@
 
 <h3><code>Manohar-P-C@github ~ $ ./links.sh</code></h3>
 
-<p><b>Computer Science Student · Web Developer · AI/DS Enthusiast</b></p>
+<p><b>Computer Science Student · Web Developer · Data Scientist</b></p>
 
-<!-- Replace these sample links with your own before publishing. -->
 [![GitHub](https://img.shields.io/badge/GitHub-Profile-0d1117?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Manohar-P-C)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/YOUR_LINKEDIN)
-[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-238636?style=for-the-badge&logo=vercel&logoColor=white)](https://YOUR_PORTFOLIO_URL)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/manohar-p-336774385?utm_source=share_via&utm_content=profile&utm_medium=member_android)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-238636?style=for-the-badge&logo=vercel&logoColor=white)](https://manohar-p-portfolio.vercel.app/)
 
 </div>

@@ -1,11 +1,5 @@
 <div align="center">
 
-<h3><code>Manohar-P-C@github ~ $ ./contributions.sh</code></h3>
-
-<img src="./contrib-heatmap.svg" width="860" alt="GitHub contribution graph fetched from the public profile" />
-
-<br><br>
-
 <h3><code>Manohar-P-C@github ~ $ whoami</code></h3>
 
 <table>
@@ -14,6 +8,12 @@
 <td valign="top"><img src="./stats.svg" width="420" alt="GitHub contribution and streak statistics" /></td>
 </tr>
 </table>
+
+<br><br>
+
+<h3><code>Manohar-P-C@github ~ $ ./contributions.sh</code></h3>
+
+<img src="./contrib-heatmap.svg" width="860" alt="GitHub contribution graph fetched from the public profile" />
 
 <br><br>
 

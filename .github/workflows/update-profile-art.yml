@@ -41,8 +41,6 @@ jobs:
         run: python scripts/render_heatmap_svg.py
       - name: Render live statistics card
         run: python scripts/render_stats_svg.py
-      - name: Pull latest remote changes
-        run: git pull origin ${{ github.ref_name }} --rebase
       - name: Commit updated assets
         uses: stefanzweifel/git-auto-commit-action@v5
         with:

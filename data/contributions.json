@@ -1,22 +1,22 @@
 {
   "username": "Manohar-P-C",
-  "generated_at": "2026-10-25T11:43:43Z",
+  "generated_at": "2026-10-26T13:16:19Z",
   "range": {
     "start": "2025-10-26",
+    "end": "2026-10-26"
+  },
+  "total_contributions": 57,
+  "active_days": 13,
+  "avg_per_active_day": 4.4,
+  "current_streak": {
+    "length": 5,
+    "start": "2026-10-21",
     "end": "2026-10-25"
   },
-  "total_contributions": 49,
-  "active_days": 12,
-  "avg_per_active_day": 4.1,
-  "current_streak": {
-    "length": 4,
-    "start": "2026-10-21",
-    "end": "2026-10-24"
-  },
   "longest_streak": {
-    "length": 4,
+    "length": 5,
     "start": "2026-10-21",
-    "end": "2026-10-24"
+    "end": "2026-10-25"
   },
   "best_day": {
     "date": "2026-09-01",
@@ -73,7 +73,7 @@
     },
     {
       "month": "2026-10",
-      "total": 12
+      "total": 20
     }
   ],
   "days": [
@@ -1899,6 +1899,11 @@
     },
     {
       "date": "2026-10-25",
+      "count": 8,
+      "level": 4
+    },
+    {
+      "date": "2026-10-26",
       "count": 0,
       "level": 0
     }
